@@ -1,5 +1,7 @@
-var printFunc = function(name) {
-    console.log(name);
-}
+var os = require('os');
 
-printFunc('vscode & node.js');
+console.log(os.hostname);
+console.log(os.freemem);
+console.log(os.totalmem);
+console.log(os.cpus);
+console.log(os.networkInterfaces);
